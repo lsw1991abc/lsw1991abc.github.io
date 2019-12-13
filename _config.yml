@@ -16,13 +16,13 @@
 title: Vimo's Blog
 description: > # this means to ignore newlines until "baseurl:"
   Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
-baseurl: "/"
+baseurl: ""
 url: "http://blog.vimo.cloud"
 permalink: /:year/:month/:day/:title
 repository: lsw1991abc/lsw1991abc.github.io
 paginate: 5
 
-# MatJek specific configurations
+# specific configurations
 github_profile: "https://github.com/lsw1991abc"
 user: "Wizard"
 user_email: "lsw1991abc@gmail.com"
