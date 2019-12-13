@@ -33,7 +33,7 @@ contact_url: "http://blog.vimo.cloud"
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
