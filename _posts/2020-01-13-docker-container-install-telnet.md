@@ -8,6 +8,7 @@ tags: docker telnet
 
 默认的安装命令是`apk add xxx`, 类似于`apt`或`yum`
 
+
 ```shell script
 apk add telnet
 ```
