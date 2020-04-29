@@ -13,7 +13,7 @@ main
       margin: 10px 0
 
     &.highlighter-rouge
-      margin: 1em 20px
+      //margin: 1em 20px
 
       pre
         padding: 5px
@@ -32,6 +32,7 @@ main
   h3
     font-weight: bold
     margin-bottom: 15px
+    font-size: 2.2rem
 
   ul
     &:not(.browser-default)
@@ -62,6 +63,18 @@ main
         background-color: #616161
 
       @include transition(all .3s ease-in-out)
+
+#post-content
+  h1
+    font-size: 2rem
+  h2
+    font-size: 1.8rem
+  h3
+    font-size: 1.6rem
+  code
+    padding: 0 0.3em 0 0.3em
+    color: #faf6e4
+    background-color: #122b3b
 
 @media only screen and (max-width: 992px)
   #post-info

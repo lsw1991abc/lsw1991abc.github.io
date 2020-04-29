@@ -24,7 +24,7 @@ git clone https://github.com/YMFE/yapi.git vendors
 ykit pack -m
 ```
 
-参考 [https://github.com/lsw1991abc/dockerfiles/tree/master/yapi](https://github.com/lsw1991abc/dockerfiles/tree/master/yapi) 的 dockerfile 进行打包镜像
+参考 [https://github.com/lsw1991abc/dockerfiles/tree/master/yapi](https://github.com/lsw1991abc/dockerfiles/tree/master/yapi){:target="_blank"} 的 dockerfile 进行打包镜像
 
 ```bash
 # 打包
