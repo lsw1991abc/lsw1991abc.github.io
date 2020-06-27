@@ -33,6 +33,34 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="{{site.baseurl}}/feed.xml">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{site.baseurl}}/sitemap.xml">
+    <script type="text/javascript">//<![CDATA[
+    (function () {
+      var configuration = {
+        "token": "4ce6d5818082068de5096de358204264",
+        "entryScript": {
+          "type": "timeout",
+          "timeout": 3000,
+          "capping": {
+            "limit": 10,
+            "timeout": 24
+          }
+        },
+        "popUnder": {
+          "enabled": true
+        }
+      };
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = '//cdn.shorte.st/link-converter.min.js';
+      script.onload = script.onreadystatechange = function () {
+        var rs = this.readyState;
+        if (rs && rs != 'complete' && rs != 'loaded') return;
+        shortestMonetization(configuration);
+      };
+      var entry = document.getElementsByTagName('script')[0];
+      entry.parentNode.insertBefore(script, entry);
+    })();
+    //]]></script>
     {% seo title=false %}
   </head>
   <body>
