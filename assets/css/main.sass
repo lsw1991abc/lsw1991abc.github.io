@@ -18,6 +18,9 @@ a:active
 main
   flex: 1 0 auto
 
+h1, h2, h3, h4, h5, h6
+  margin: 1rem 0 1rem 0
+
 header,
 main,
 footer
@@ -28,10 +31,11 @@ footer
 
 // Header
 header
-  height: 80px
+  height: 60px
 
-  a:hover
-    text-decoration: none
+  a
+    &:hover
+      text-decoration: none
 
   .background
     background: -webkit-linear-gradient(90deg, #3AA17E 10%, #00537E 90%)
@@ -53,23 +57,27 @@ a
 
 nav
   .page-title
-    font-size: 36px
+    font-size: 28px
     font-weight: bold
-    line-height: 80px
+    line-height: 60px
 
 nav
   &.top-nav
-    height: 80px
+    height: 60px
 
 // Footer
-footer.page-footer
-  margin-top: 10px
+footer
+  a
+    color: rgba(255,255,255,0.8)
 
-  .row
-    margin-bottom: 0px
+  &.page-footer
+    margin-top: 10px
 
-  p
-    margin-top: 5px
+    .row
+      margin-bottom: 0px
+
+    p
+      margin-top: 5px
 
 // Misc
 blockquote
