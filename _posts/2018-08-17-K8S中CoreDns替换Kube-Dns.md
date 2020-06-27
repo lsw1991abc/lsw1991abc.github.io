@@ -1,25 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: K8S中CoreDns替换Kube-Dns
-author:
-  display_name: Wizard
-  login: lsw1991abc
-  email: lsw1991abc@gmail.com
-  url: http://wp.mobe.local
-author_login: lsw1991abc
-author_email: lsw1991abc@gmail.com
-author_url: http://wp.mobe.local
-wordpress_id: 1755
-wordpress_url: http://xbug.xyz/?p=1755
-date: '2018-08-17 17:38:28 +0800'
-date_gmt: '2018-08-17 09:38:28 +0800'
-categories:
-- 系统运维
-tags:
-- Kubernetes
-comments: []
+date: 2018-08-17 17:38:28 +0800
+categories: ops
+tags: Kubernetes
 ---
 在之前的文章里，写了一些使用kubeadm搭建k8s环境的步骤：[kubeadm安装K8S](http://xbug.xyz/1696.html)，使用的版本是1.10.3
 
