@@ -41,31 +41,6 @@
       hm.src = "https://hm.baidu.com/hm.js?9ce6192671d330102a17731097ea25d4";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
-
-      var configuration = {
-        "token": "4ce6d5818082068de5096de358204264",
-        "entryScript": {
-          "type": "timeout",
-          "timeout": 3000,
-          "capping": {
-            "limit": 10,
-            "timeout": 24
-          }
-        },
-        "popUnder": {
-          "enabled": true
-        }
-      };
-      var script = document.createElement('script');
-      script.async = true;
-      script.src = '//cdn.shorte.st/link-converter.min.js';
-      script.onload = script.onreadystatechange = function () {
-        var rs = this.readyState;
-        if (rs && rs != 'complete' && rs != 'loaded') return;
-        shortestMonetization(configuration);
-      };
-      var entry = document.getElementsByTagName('script')[0];
-      entry.parentNode.insertBefore(script, entry);
     })();
     //]]></script>
     {% seo title=false %}
