@@ -29,7 +29,6 @@ user_email: "lsw1991abc@gmail.com"
 contact_url: "https://blog.vimo.cloud"
 #google_tracking_id: ""
 #google_site_verification: ""
-#disqus_shortname: ""
 
 # Build settings
 markdown: kramdown

@@ -41,19 +41,18 @@ js: ["post.js"]
     {{ content }}
   </div>
 </div>
-{% if site.disqus_shortname and page.comments %}
-<div id="disqus_thread"></div>
+<div id='gitalk-container'></div>
 <script>
-  var disqus_config = function () {
-    this.page.url = "{{site.url}}{{site.baseurl}}{{page.url}}";
-    this.page.identifier = "{{page.id}}";
-  };
-  (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//{{site.disqus_shortname}}.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
+console.log('=====')
+const gitalk = new Gitalk({
+  clientID: 'ab52bf5d22a77fcb0a94',
+  clientSecret: '86f6a94811399a7df7d524dd27b6b2e6a5fc0930',
+  repo: 'lsw1991abc.github.io',
+  owner: 'lsw1991abc',
+  admin: ['lsw1991abc'],
+  id: '{{ page.title }}',      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
+})
+
+gitalk.render('gitalk-container')
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}

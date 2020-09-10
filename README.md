@@ -30,12 +30,6 @@ disqus_shortname: "shortname_given_by_Disqus"
 
 Edit the images in `assets/res` to suit your liking, but try to stick to the original resolutions.
 
-If you would like to enable comments in a post (disqus_shortname must be provided), add this line to the front matter of the post.
-
-```yaml
-comments: 1
-```
-
 Add tags and categories to your posts in the front matter as well. Multiple tags/categories can be assigned but need to be separated by spaces.
 
 ```yaml
