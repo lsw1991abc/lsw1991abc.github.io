@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Docker启动提示Failed to start docker.service: Unit docker.service is masked.'
+title: 'Docker启动提示Unit docker.service is masked.'
 date: '2018-03-05 15:22:38 +0800'
 categories:
 - 系统运维

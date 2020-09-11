@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Idea启动Main方法报错Class JavaLaunchHelper is implemented in both
+title: 'Idea启动Main方法报错implemented in both'
 date: '2017-10-10 22:57:23 +0800'
 categories:
 - 编程开发

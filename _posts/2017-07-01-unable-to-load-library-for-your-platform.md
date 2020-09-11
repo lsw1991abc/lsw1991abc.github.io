@@ -1,6 +1,6 @@
 ---
 layout: post
-title: warn util.nativecodeloader unable to load native-hadoop library for your platform
+title: 'unable to load library for your platform'
 date: '2017-07-01 12:11:03 +0800'
 categories:
 - 编程开发
@@ -8,6 +8,9 @@ tags:
 - Hadoop
 comments: []
 ---
+
+> util.nativecodeloader unable to load native-hadoop library for your platform
+
 解决方法
 
 修改`.bashrc`，调整一下`export`

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: docker compose define both links and networks 问题及解决方法
+title: 'define both links and networks 问题及解决方法'
 date: '2017-04-06 00:34:38 +0800'
 categories:
 - 系统运维

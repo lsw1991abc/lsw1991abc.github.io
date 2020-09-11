@@ -40,8 +40,6 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-gems:
-  - liquid-md5
 sass:
   style: compressed
 future: true
