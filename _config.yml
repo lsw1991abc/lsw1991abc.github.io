@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Vimo's Blog
 description: > # this means to ignore newlines until "baseurl:"
-  Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
+  Vimo's Blog based on <a href="https://blog.vimo.cloud/">GitHub Pages</a> for jekyll sites
 baseurl: ""
 url: "http://blog.vimo.cloud"
 permalink: /:year/:month/:day/:title
@@ -40,6 +40,8 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+gems:
+  - liquid-md5
 sass:
   style: compressed
 future: true
